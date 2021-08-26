@@ -1,0 +1,38 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "ansi-styles": "^4.3.0",
+    "buffer-alloc": "^1.2.0",
+    "buffer-alloc-unsafe": "^1.1.0",
+    "buffer-fill": "^1.0.0",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "debug": "^4.3.2",
+    "event-target-shim": "^5.0.1",
+    "has-flag": "^4.0.0",
+    "minimist": "^1.2.5",
+    "module-alias": "^2.2.2",
+    "ms": "^2.1.2",
+    "node-fetch": "^2.6.1",
+    "p-timeout": "^4.1.0",
+    "safe-compare": "^1.1.4",
+    "sandwich-stream": "^2.0.2",
+    "supports-color": "^7.2.0",
+    "typegram": "^3.4.3",
+    "chalk": "^4.1.2",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12",
+    "telegraf": "^4.4.1"
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
