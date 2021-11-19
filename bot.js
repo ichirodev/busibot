@@ -14,16 +14,16 @@ bot.start((ctx) => {
 });
 
 bot.help((ctx) => {
-    ctx.reply('lol');
+    ctx.reply('La ayuda llegara pronto');
 });
 
 bot.settings((ctx) => {
-    ctx.reply('Hola puto');
+    ctx.reply('Hola, mucho gusto');
 });
 
 /* ****** Commands ****** */
 bot.command('mycommand', (ctx) => {
-    ctx.reply('test command 1');
+    ctx.reply('Comando de prueba 1');
 });
 
 bot.command(['ToMan', 'TokyoManji', 'toman'], (ctx) => {
@@ -32,19 +32,19 @@ bot.command(['ToMan', 'TokyoManji', 'toman'], (ctx) => {
 
 /* ****** Extra ****** */
 bot.hears('computer', ctx => {
-    ctx.reply('Hey, I\'m selling a computer');
+    ctx.reply('Oye, yo vendo computadoras');
 });
 
 bot.on('text', ctx => {
-    ctx.reply('ora verga');
+    ctx.reply('Mucho texto');
 });
 
 bot.on('sticker', ctx => {
-    ctx.reply('vwerga stickers');
+    ctx.reply('Has enviado un sticker');
 });
 
 bot.mention('BotFather', ctx => {
-    ctx.reply('a');
+    ctx.reply('El mismisimo');
 });
 
 
